@@ -33,7 +33,7 @@ By extracting spectral and temporal markers, the system creates deterministic cl
 
 ### 3. Real-Time Inference Performance
 The trained engine successfully identifies unlabeled, noisy inputs by mapping them to the high-precision reference clusters. 
-![Inference Engine Output](results/image_5e147a.png)
+![Inference Engine Output](results/figure_3(AIS).png)
 
 ---
 
