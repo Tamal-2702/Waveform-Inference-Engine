@@ -1,4 +1,4 @@
-# 📡 Automated Waveform Characterization & Inference Pipeline
+# Automated Waveform Characterization & Inference Pipeline
 > **A Hybrid MATLAB-Python Framework for Signal Integrity & Pattern Recognition**
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
@@ -7,12 +7,12 @@
 
 ---
 
-## 🔬 Research Abstract
+## Research Abstract
 This project addresses the challenge of autonomous signal identification in complex electronic environments. By bridging **MATLAB-based mathematical synthesis** with **Python-driven Machine Learning**, I developed a pipeline that extracts deterministic features from raw temporal data to classify unlabeled waveforms. The system is designed to distinguish between periodic analog signals, digital pulse trains, and stochastic interference, providing a scalable solution for signal integrity monitoring.
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 The framework is divided into three core functional layers:
 
 1.  **Synthesis Layer (`waveform_engine.py`):** Generates high-fidelity reference classes—Deterministic Sinusoidal, Rectangular Pulse, and Stochastic Gaussian models.
@@ -21,7 +21,7 @@ The framework is divided into three core functional layers:
 
 ---
 
-## 📈 Experimental Results & Validation
+## Experimental Results & Validation
 
 ### 1. High-Fidelity Waveform Synthesis
 The pipeline generates three distinct classes of signals for characterization. This provides the mathematical ground truth for training the inference engine.
@@ -47,7 +47,7 @@ The trained engine successfully identifies unlabeled, noisy inputs by mapping th
 
 ---
 
-## 🚀 Installation & Usage
+## Installation & Usage
 ### 1. Dependencies: Ensure numpy, pandas, matplotlib, and scikit-learn are installed.
 
 ### 2. Execution: Run scripts/automated_inference_system.py to initialize the model and validate against test inputs.
@@ -66,4 +66,21 @@ Researcher: Tamal Ghosh (Roll: 240101045)
 
 Core Competencies: Signal Processing, Machine Learning, MATLAB-Python Integration.
 
-----
+**LinkedIn:** [''tamalghosh''](https://linkedin.com/in/tamalghosh-feb2004) , 
+**Email Id:** [tamalghosh209@gmail.com](mailto:tamalghosh209@gmail.com)
+
+---
+
+## Research Supervision & Acknowledgements
+This research prototype was developed under the formal guidance and academic supervision of:
+
+### **Prof. Anjan Kumar Talukdar**
+**Head of Department (HoD)** *Electronics and Communication Engineering* **Gauhati University, Assam, India** 
+
+- **Institutional Email:** [anjantalukdar@gauhati.ac.in](mailto:anjantalukdar@gauhati.ac.in)
+
+- 🔗 **Professional Profile:** [LinkedIn Portfolio](https://linkedin.com/in/anjan-kumar-talukdar-7a6a49175)
+
+> **Acknowledgement:** I extend my sincere gratitude to Prof. Talukdar for his mentorship in aligning this Signal Characterization framework with the academic rigor of the **ECE213 (Signals and Systems)** curriculum. His insights into spectral analysis and hardware-level signal integrity were instrumental in the successful validation of the automated inference engine.
+
+---
